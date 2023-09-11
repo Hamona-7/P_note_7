@@ -3,10 +3,14 @@ package note.P_note.service;
 import note.P_note.domain.Member;
 import note.P_note.repository.MemberRepository;
 import note.P_note.repository.MemoryMemberRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 import java.util.Optional;
 
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;

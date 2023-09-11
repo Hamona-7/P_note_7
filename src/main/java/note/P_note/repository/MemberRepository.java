@@ -1,6 +1,7 @@
 package note.P_note.repository;
 
 import note.P_note.domain.Member;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
